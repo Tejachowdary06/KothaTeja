@@ -1,13 +1,13 @@
-package com.langfundamental.methods.constructors;
+package com.langfundamental.constructors;
 import java.util.Scanner;
 
-public class Book {
+public class Triangle {
 	static Scanner sc = new Scanner(System.in);
 	double length;
 	double bredth;
 	double areaoftriangle;
 	
-	Book() {
+	Triangle() {
 		System.out.println("enter the length : ");
 		length=sc.nextDouble();
 		System.out.println("enter the bredth : ");
@@ -17,7 +17,7 @@ public class Book {
 	}
 
 	public static void main(String[] args) {
-		Book b = new Book();
+		Triangle b = new Triangle();
 		b.show();
 	}
 	void show() {

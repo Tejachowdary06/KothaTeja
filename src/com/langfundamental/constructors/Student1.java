@@ -1,4 +1,4 @@
-package com.langfundamental.methods.constructors;
+package com.langfundamental.constructors;
 
 public class Student1 {
 	String sname;

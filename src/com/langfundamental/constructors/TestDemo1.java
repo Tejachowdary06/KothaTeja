@@ -1,4 +1,4 @@
-package com.langfundamental.methods.constructors;
+package com.langfundamental.constructors;
 
 public class TestDemo1 {
 	int jsno;
