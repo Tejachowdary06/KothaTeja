@@ -1,9 +1,8 @@
-package com.langfundamental.logicalstatement;
+package com.consolebasedapp;
 
 import java.util.Scanner;
 
 public class MarriageMatrimonial {
-
 	public static void main(String[] args) {
 		System.out.println("Welcome to Vcube Matrimonial website ");
 		Scanner sc = new Scanner(System.in);
@@ -46,5 +45,6 @@ public class MarriageMatrimonial {
 		} else {
 			System.out.println("You can leave for the day !! ALl the best ");
 		}
+		sc.close();
 	}
 }

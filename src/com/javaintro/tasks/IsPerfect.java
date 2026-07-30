@@ -33,7 +33,7 @@ public class IsPerfect {
 		} else {
 			System.out.println("the given value is not perfect");
 		}
-
+		sc.close();
 	}
 
 }

@@ -16,6 +16,7 @@ public class TableCreation {
 		for(int i=0;i<=n1;i++) {
 			
 			System.out.println(n+"x"+i+"="+n*i);
+			sc.close();
 		}
 	}
 

@@ -5,6 +5,6 @@ public class Square {
 	static int a = x * x;
 
 	void main(String[] args) {
-		System.out.println("The Square of = " + x + " " + a);
+		System.out.println("The Square of  " + x + " is " + a);
 	}
 }

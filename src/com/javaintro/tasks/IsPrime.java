@@ -31,6 +31,7 @@ public class IsPrime {
 		} else {
 			System.out.println("the given number is not prime");
 		}
+		sc.close();
 
 	}
 

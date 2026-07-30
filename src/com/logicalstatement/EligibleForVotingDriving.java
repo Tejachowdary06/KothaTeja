@@ -1,10 +1,11 @@
-package com.langfundamental.logicalstatement;
+package com.logicalstatement;
 
 import java.util.Scanner;
 
-public class VoteDriving {
+public class EligibleForVotingDriving {
 
 	public static void main(String[] args) {
+
 		System.out.println("main method is started");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter your age");
@@ -19,5 +20,8 @@ public class VoteDriving {
 
 			System.out.println("main method ended");
 		}
+		sc.close();
+
 	}
+
 }

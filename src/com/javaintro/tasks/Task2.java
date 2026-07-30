@@ -2,9 +2,18 @@ package com.javaintro.tasks;
 
 public class Task2 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	void main() {
+		hello();
 	}
 
+	int hello() {
+		try {
+			return 10;
+		} catch (Exception e) {
+			return 30;
+		}
+		finally {
+			return 20;
+		}
+	}
 }
